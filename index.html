@@ -12,7 +12,9 @@
          var img1 = document.getElementsByTagName('img')[0];
 
          window.afficher = function(){
-         img.style.display = (img.style.display == "block") ? "none" : "block";
+         img.style.display = (img.style.display == "block") ? "none" : "block";*
+         sleep(1000)
+         img.style.display = "none";
          }
          img1.onclick = afficher
       </script>
