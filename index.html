@@ -6,5 +6,15 @@
       </head>
    <body>
      <img src=grass.png alt=grassgrassgrassgrassgrassgrassgrassgrassgrassgrassgrassgrassgrassgrassgrassgrassgrassgrosgrassgrassgrassgrassgrassgrassgrassgrassgrassgrassgrassgrassgrass3grass>
-      </body>
+     <img src=particle.png alt=particle>
+     <script>
+         var img = document.getElementsByTagName('img')[1];
+         var img1 = document.getElementsByTagName('img')[0];
+
+         window.afficher = function(){
+         img.style.display = (img.style.display == "block") ? "none" : "block";
+         }
+         img1.onclick = afficher
+      </script>
+   </body>
 </html>
